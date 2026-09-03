@@ -1,0 +1,12 @@
+streamlit>=1.30
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+scikit-learn>=1.3
+joblib>=1.3
+wordcloud>=1.9
+plotly>=5.20
+
+# Optional: only needed if you switch db.py's DATABASE_URL to MySQL
+# sqlalchemy>=2.0
+# pymysql>=1.1

@@ -1,0 +1,59 @@
+# ===========================================================================
+# Privacy: never commit real chat exports, local history, or secrets.
+# ===========================================================================
+
+# The local, opt-in SQLite history DB -- may contain real message content.
+chat_analysis.db
+chat_analysis.db-journal
+chat_analysis.db-wal
+chat_analysis.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# Real WhatsApp chat exports a user might drop in the project folder.
+# The bundled demo file is explicitly re-allowed below.
+WhatsApp Chat with*.txt
+*chat_export*.txt
+!sample_chat.txt
+
+# Secrets / credentials / environment config.
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+*api_key*
+*apikey*
+
+# Uploaded/temporary files, in case a future feature persists uploads.
+uploads/
+tmp/
+*.tmp
+
+# ===========================================================================
+# Standard Python / tooling noise
+# ===========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local config (may contain machine-specific settings)
+.streamlit/secrets.toml

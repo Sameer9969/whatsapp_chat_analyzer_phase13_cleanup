@@ -1,0 +1,92 @@
+# DEMONSTRATION DATA ONLY -- hand-written by the developer for pipeline development/testing. Small (90 rows), not collected from real users, and NOT representative of general Hinglish sentiment. See build_hinglish_demo_dataset.py header for full context.
+text,label
+mast hai bro,positive
+bahut accha laga aaj,positive
+kya baat hai zabardast kaam kiya,positive
+yaar tu best hai,positive
+maza aa gaya party mein,positive
+bahut khush hoon aaj,positive
+superb yaar ekdum mast,positive
+thik hai sab kuch badiya chal raha hai,positive
+bahut badhiya idea hai ye,positive
+dil khush ho gaya ye sunke,positive
+kamaal kar diya tune,positive
+sahi hai bhai poora din accha gaya,positive
+bindaas mood hai aaj,positive
+full mast party thi kal,positive
+bahut proud feel ho raha hai,positive
+ekdum jhakas movie thi,positive
+tu rockstar hai yaar,positive
+bahut shukriya madad ke liye,positive
+kya scene hai bahut maza aa raha hai,positive
+aaj ka din bahut acha raha,positive
+bohot badiya performance thi,positive
+dil se thanks yaar,positive
+bahut hi lit party thi,positive
+sabse acchi news hai ye,positive
+bahut khushi hui sunke,positive
+wah kya baat hai,positive
+tu legend hai bhai,positive
+bahut sukoon mila aaj,positive
+superb result aaya hai,positive
+bahut mast weather hai aaj,positive
+mood off hai yaar,negative
+aaj bahut bakwas din tha,negative
+bahut tension ho rahi hai,negative
+yeh bilkul bekar tha,negative
+bahut gussa aa raha hai mujhe,negative
+sab kuch kharab ho gaya,negative
+bahut udaas hoon aaj,negative
+yeh scene bilkul faltu tha,negative
+bahut thak gaya hoon aaj,negative
+kal ka din bahut bura tha,negative
+bahut pareshan hoon is baat se,negative
+dil bahut dukhi hai,negative
+bahut niraash hoon result se,negative
+yeh bilkul galat hua,negative
+aaj sab kuch bigad gaya,negative
+bahut stress ho raha hai exam ka,negative
+bura laga ye sunke,negative
+bahut disappointing tha match,negative
+mood kharab hai bilkul,negative
+kal se sab kuch off chal raha hai,negative
+bahut irritating tha wo insaan,negative
+bahut rona aa raha hai,negative
+sab bekar lag raha hai aajkal,negative
+bahut takleef ho rahi hai,negative
+yeh bahut hi ghatiya tha,negative
+bahut akela mehsoos ho raha hai,negative
+sab plan fail ho gaya,negative
+bahut naraz hoon tumse,negative
+bahut bura laga sun ke,negative
+dil toot gaya ye sunke,negative
+kal milte hai,neutral
+kitne baje aana hai,neutral
+class kal se shuru hogi,neutral
+meeting reschedule ho gayi hai,neutral
+file bhej do please,neutral
+kal exam hai subah nau baje,neutral
+lunch kab karoge,neutral
+tum kaha ho abhi,neutral
+weekend pe kya plan hai,neutral
+group mein sab log aa jao,neutral
+assignment submit karna hai kal tak,neutral
+train subah dus baje hai,neutral
+address bhejo please,neutral
+call kar lena jab free ho,neutral
+schedule confirm kar do,neutral
+list bhej raha hoon dekh lena,neutral
+location share karo please,neutral
+next hafte milte hai,neutral
+project ka status kya hai,neutral
+form fill karke bhejna hai,neutral
+kal ka agenda kya hai,neutral
+store kitne baje band hota hai,neutral
+payment kab tak karni hai,neutral
+venue change ho gaya hai,neutral
+update bhej dena jab ho jaye,neutral
+budget discuss karna hai kal,neutral
+presentation ready hai kya,neutral
+invoice bhejna mat bhoolna,neutral
+class online move ho gayi hai,neutral
+schedule ek baar phir se check karo,neutral

@@ -1,0 +1,223 @@
+{
+  "dataset": {
+    "sources": {
+      "sentiment_train.csv": 152,
+      "hinglish_sentiment_demo.csv": 90
+    },
+    "total_rows": 242,
+    "label_counts": {
+      "positive": 81,
+      "neutral": 81,
+      "negative": 80
+    },
+    "disclaimer": "Demonstration-scale combined dataset (see train_hinglish_pipeline.py docstring). Not a scientifically representative corpus."
+  },
+  "settings": {
+    "max_features": 3000,
+    "min_df": 2,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "test_size": 0.2,
+    "random_state": 42
+  },
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.6530612244897959,
+      "precision_macro": 0.7196969696969697,
+      "recall_macro": 0.6544117647058824,
+      "f1_macro": 0.6587301587301587,
+      "confusion_matrix": [
+        [
+          9,
+          1,
+          6
+        ],
+        [
+          0,
+          10,
+          7
+        ],
+        [
+          3,
+          0,
+          13
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 0.75,
+          "recall": 0.5625,
+          "f1-score": 0.6428571428571429,
+          "support": 16.0
+        },
+        "neutral": {
+          "precision": 0.9090909090909091,
+          "recall": 0.5882352941176471,
+          "f1-score": 0.7142857142857143,
+          "support": 17.0
+        },
+        "positive": {
+          "precision": 0.5,
+          "recall": 0.8125,
+          "f1-score": 0.6190476190476191,
+          "support": 16.0
+        },
+        "accuracy": 0.6530612244897959,
+        "macro avg": {
+          "precision": 0.7196969696969697,
+          "recall": 0.6544117647058824,
+          "f1-score": 0.6587301587301587,
+          "support": 49.0
+        },
+        "weighted avg": {
+          "precision": 0.7235621521335807,
+          "recall": 0.6530612244897959,
+          "f1-score": 0.6598639455782314,
+          "support": 49.0
+        }
+      },
+      "n_train": 193,
+      "n_test": 49
+    },
+    "multinomial_nb": {
+      "accuracy": 0.6122448979591837,
+      "precision_macro": 0.6677536231884057,
+      "recall_macro": 0.613970588235294,
+      "f1_macro": 0.6185897435897435,
+      "confusion_matrix": [
+        [
+          10,
+          1,
+          5
+        ],
+        [
+          1,
+          9,
+          7
+        ],
+        [
+          5,
+          0,
+          11
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 0.625,
+          "recall": 0.625,
+          "f1-score": 0.625,
+          "support": 16.0
+        },
+        "neutral": {
+          "precision": 0.9,
+          "recall": 0.5294117647058824,
+          "f1-score": 0.6666666666666666,
+          "support": 17.0
+        },
+        "positive": {
+          "precision": 0.4782608695652174,
+          "recall": 0.6875,
+          "f1-score": 0.5641025641025641,
+          "support": 16.0
+        },
+        "accuracy": 0.6122448979591837,
+        "macro avg": {
+          "precision": 0.6677536231884057,
+          "recall": 0.613970588235294,
+          "f1-score": 0.6185897435897435,
+          "support": 49.0
+        },
+        "weighted avg": {
+          "precision": 0.6724933451641527,
+          "recall": 0.6122448979591837,
+          "f1-score": 0.619570905285191,
+          "support": 49.0
+        }
+      },
+      "n_train": 193,
+      "n_test": 49
+    },
+    "random_forest": {
+      "accuracy": 0.6938775510204082,
+      "precision_macro": 0.7454906204906204,
+      "recall_macro": 0.6960784313725491,
+      "f1_macro": 0.6992063492063493,
+      "confusion_matrix": [
+        [
+          11,
+          1,
+          4
+        ],
+        [
+          0,
+          10,
+          7
+        ],
+        [
+          3,
+          0,
+          13
+        ]
+      ],
+      "labels": [
+        "negative",
+        "neutral",
+        "positive"
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 0.7857142857142857,
+          "recall": 0.6875,
+          "f1-score": 0.7333333333333333,
+          "support": 16.0
+        },
+        "neutral": {
+          "precision": 0.9090909090909091,
+          "recall": 0.5882352941176471,
+          "f1-score": 0.7142857142857143,
+          "support": 17.0
+        },
+        "positive": {
+          "precision": 0.5416666666666666,
+          "recall": 0.8125,
+          "f1-score": 0.65,
+          "support": 16.0
+        },
+        "accuracy": 0.6938775510204082,
+        "macro avg": {
+          "precision": 0.7454906204906204,
+          "recall": 0.6960784313725491,
+          "f1-score": 0.6992063492063493,
+          "support": 49.0
+        },
+        "weighted avg": {
+          "precision": 0.7488294018906263,
+          "recall": 0.6938775510204082,
+          "f1-score": 0.699514091350826,
+          "support": 49.0
+        }
+      },
+      "n_train": 193,
+      "n_test": 49
+    }
+  },
+  "best_model": "random_forest",
+  "saved_model_path": "/home/claude/project/whatsapp_chat_analyzer/model/hinglish_sentiment_pipeline.joblib",
+  "saved_individual_model_paths": {
+    "logistic_regression": "/home/claude/project/whatsapp_chat_analyzer/model/hinglish_logistic_regression.joblib",
+    "multinomial_nb": "/home/claude/project/whatsapp_chat_analyzer/model/hinglish_multinomial_nb.joblib",
+    "random_forest": "/home/claude/project/whatsapp_chat_analyzer/model/hinglish_random_forest.joblib"
+  }
+}
